@@ -3,6 +3,7 @@
 ### Project Tittle:  Password based door lock system using 8051/PIC microcontroller
 ### Project Members:
     1.   Kartik Thalore
+    2.   Satyajeet Kumar
 
 ### Contents:
     •	Introduction
