@@ -35,7 +35,7 @@ The main objective of designing this password based door lock system is to provi
 The main component in the circuit is 8051 controller. In this project 4×3 keypad is used to enter the password. The password which is entered is compared with the predefined password.
 If the entered password is correct then the system opens the door by rotating door motor and displays the status of door on LCD. If the password is wrong then door is remain closed and a sound alarm is triggered and displays “Password is wrong” on LCD.
 ### Block Diagram: 
- <img src="readme_images/BlockDiagram.png">
+ <img src="readme_images1/BlockDiagram.png">
 
 ### Hardware Requirements:
 1.	80C51 Microcontroller
@@ -51,7 +51,7 @@ If the entered password is correct then the system opens the door by rotating do
 11.	Ground
 ### Proteus Design:
 
- <img src="readme_images/proteusdesigne.png">
+ <img src="readme_images1/proteusdesigne.png">
 
 ### Description and Working of Components:
 #### Reset Circuit Design:
@@ -94,11 +94,11 @@ The main idea behind this project is of a door-latch opening using a password en
       8. STOP
 
 ### Code Explanation: 
-  <img src="readme_images/whileloop.png">
+  <img src="readme_images1/whileloop.png">
   
 Scan_key(); function scan whether a key has been pressed or not all the time. if any key has got pressed corresponding value would be stored in variable which we will compare with variable having predefined id. Function strcmp(); compare these two ids if id matched it would return zero otherwise give some garbage value.
        
- <img src="readme_images/stringcompare.png">
+ <img src="readme_images1/stringcompare.png">
 
 ### Advantage:
 1.	Pick-proof: Because there is no place for a key with these locks, the prevent break-ins because burglars are unable to pick or ‘bump’ the lock. Criminal’s methods of breaking and entering are improving and the majority of criminals can pick an ordinary key lock.
